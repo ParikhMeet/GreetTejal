@@ -54,8 +54,8 @@ var generateSuccessResponse = (context) => {
         "Hmmmmm baby, Hmmmmm baby, Hmmmmm baby,",
         "I love you tejal !!",
         "Tejal, How was your day?",
-        "Tejal, bang, bang, bangity bang, bang, bang, bangity bang",
-        "dhuupti, dhuupti"
+        "Tejal, bang bang, bangity bang, bang bang bangity bang",
+        "dhuopti, dhuopti"
     ]
     return context.succeed(
         generateResponse(
