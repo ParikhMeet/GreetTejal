@@ -5,7 +5,7 @@ exports.handler = (event, context, callback) => {
             console.log("NEW SESSION")
         }
 
-        switch (event.session.new) {
+        switch (event.request.type) {
             case "LaunchRequest":
                 // Launch Request
                 console.log(`LAUNCH REQUEST`)
@@ -55,7 +55,7 @@ var generateSuccessResponse = (context) => {
         "I love you tejal !!",
         "Tejal, How was your day?",
         "Tejal, bang, bang, bangity bang, bang, bang, bangity bang",
-        "dhupti, dhupti"
+        "dhuupti, dhuupti"
     ]
     return context.succeed(
         generateResponse(
